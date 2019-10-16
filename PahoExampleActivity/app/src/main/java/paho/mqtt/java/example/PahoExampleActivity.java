@@ -56,7 +56,7 @@ public class PahoExampleActivity extends AppCompatActivity{
     final String subscriptionTopic = "channels/877274/subscribe/fields/field3/U7SFTLYU6S6DH5UL";
     final String publishMessage = "3333";
 
-    @Override
+    @Override 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling);
